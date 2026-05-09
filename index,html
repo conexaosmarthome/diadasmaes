@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dia das Mães - Andreza</title>
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+    }
+
+    body{
+      background: linear-gradient(135deg, #fdf7f7, #f7f1f3);
+      min-height:100vh;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      padding:20px;
+      font-family: "Georgia", serif;
+    }
+
+    .container{
+      width:100%;
+      max-width:900px;
+      background:#ffffff;
+      border-radius:24px;
+      overflow:hidden;
+      box-shadow:0 15px 40px rgba(0,0,0,0.12);
+      padding:20px;
+    }
+
+    .image-wrapper{
+      width:100%;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+    }
+
+    .image-wrapper img{
+      width:100%;
+      height:auto;
+      border-radius:18px;
+      display:block;
+      object-fit:cover;
+    }
+
+    /* Mobile */
+    @media (max-width: 768px){
+
+      body{
+        padding:12px;
+      }
+
+      .container{
+        padding:12px;
+        border-radius:18px;
+      }
+
+      .image-wrapper img{
+        border-radius:12px;
+      }
+    }
+
+    /* Telas grandes */
+    @media (min-width: 1200px){
+
+      .container{
+        max-width:1000px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <div class="image-wrapper">
+      <!-- Troque o nome da imagem caso necessário -->
+      <img src="dia-das-maes.jpg" alt="Mensagem especial de Dia das Mães para Andreza">
+    </div>
+
+  </div>
+
+</body>
+</html>
